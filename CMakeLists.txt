@@ -1293,6 +1293,8 @@ SET(XNNPACK_SSE2_MICROKERNEL_SRCS
   src/qu8-gavgpool/7x-minmax-sse2-c8.c
   src/qu8-gemm/2x4c8-minmax-sse2.c
   src/qu8-gemm/4x4c2-minmax-sse2.c
+  src/qu8-gemm/gen/8x8c4-minmax-scalar.c
+  src/qu8-gemm/gen/12x4c4-minmax-scalar.c
   src/qu8-requantization/fp32-sse2.c
   src/qu8-requantization/precise-sse2.c
   src/qu8-requantization/q31-sse2.c
